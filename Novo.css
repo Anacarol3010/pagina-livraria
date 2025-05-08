@@ -1,0 +1,47 @@
+body {
+    height: 100vh; /* Definir altura da tela view-height */
+    display: flex; /* Usar flexbox para o layout */
+    justify-content: top; /* Centralizar horizontalmente */
+    align-items: top; /* Cenytralizar verticalmente */
+}
+ 
+label{
+    font-weight: 100px;
+   
+}
+ 
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+div{
+    background-color: darkgrey;
+    padding: 42px;
+    font-family: Arial;
+ 
+    max-width: 600px;
+    height: 200px;
+ 
+    border-radius: 32px;
+ }
+ 
+ button{
+    background-color: darkcyan;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 32px;
+ }
+ 
+ button:hover{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius:  100px;
+ }
+ a{
+    font-size: medium;
+ }
+ 
